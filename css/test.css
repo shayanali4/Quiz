@@ -1,0 +1,58 @@
+body{
+    background: rgb(89,80,244);
+    background: -moz-radial-gradient(circle, rgba(89,80,244,1) 27%, rgba(47,103,233,1) 40%, rgba(76,128,228,1) 67%, rgba(0,212,255,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(89,80,244,1) 27%, rgba(47,103,233,1) 40%, rgba(76,128,228,1) 67%, rgba(0,212,255,1) 100%);
+    background: radial-gradient(circle, rgba(89,80,244,1) 27%, rgba(47,103,233,1) 40%, rgba(76,128,228,1) 67%, rgba(0,212,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5950f4",endColorstr="#00d4ff",GradientType=1);
+}
+.test{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+.welcome{
+    width: 80%;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    color: whitesmoke;
+}
+li{
+    list-style-type: none;
+}
+input{
+    padding: 10px 15px;
+    margin: 5px 10px 5px 0px;
+    font-size: medium;
+    cursor: pointer;
+
+}
+input[type="submit"]{
+    float: right;
+    margin: 5px 0px 15px 0px;
+}
+.card{
+    width: 50% !important;
+    box-shadow: 10px 15px 15px black !important;
+}
+@media only screen and (max-width: 600px) {
+    .card{
+        width: 80% !important;
+        box-shadow: 10px 15px 15px black !important;
+    }
+  }
+
+@media only screen and (max-width: 500px) {
+    .card{
+        width: 90% !important;
+        box-shadow: 10px 15px 15px black !important;
+    }
+  }
+
+  progress{
+      transition: 1s;
+  }
